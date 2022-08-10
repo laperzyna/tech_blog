@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
       include: [User],
     });
     const posts = postData.map((post) => post.get({ plain: true }));
-    res.render('all-posts-admin', { posts, loggedIn: req.session.loggedIn});
+    res.render('allPosts', { posts, loggedIn: req.session.loggedIn});
   } catch (err) {
     res.status(500).json(err);
   }
@@ -32,7 +32,7 @@ router.get('/post/:id', withAuth, async (req, res) => {
     if (postData) {
       const post = postData.get({ plain: true });
       console.log(post);
-      res.render('single-post', { post, loggedIn: req.session.loggedIn});
+      res.render('sPost', { post, loggedIn: req.session.loggedIn});
     } else {
       res.status(404).end();
     }
