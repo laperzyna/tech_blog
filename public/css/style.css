@@ -1,9 +1,10 @@
 :root {
-  --primary: #ccdad1;
-  --secondary: #9caea9;
-  --tertiary: #788585;
-  --light-dark: #6f6866;
-  --dark: #000000;
+  --light: #f5ddce;
+  --primary: #dfad8d;
+  --secondary: #334b74;
+  --tertiary: #a43b1e;
+  --light-dark: #be7373;
+  --dark: #a1513a;
   --border-radius: 0.3rem;
 }
 
@@ -15,7 +16,7 @@ body {
   background-color: var(--primary);
   margin: 0;
   padding: 0;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Gill Sans", sans-serif;
   color: var(--dark);
   line-height: 1.5;
   font-size: 16px;
@@ -29,7 +30,7 @@ h5,
 h6 {
   font-weight: 700;
   margin: 0;
-  color: var(--dark);
+  color: var(--light);
   line-height: 1.25;
 }
 
@@ -38,7 +39,7 @@ h2 a:visited {
 }
 
 h2 a {
-  color: var(--primary);
+  color: var(--light);
 }
 
 header {
@@ -64,6 +65,7 @@ input {
     background: #FFF;
     margin: 0 0 5px;
     padding: 10px;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .card-header h2 {
@@ -78,7 +80,7 @@ input {
   display: block;
   margin: 5px 0;
   border-radius: var(--border-radius);
-  color: var(--primary);
+  color: var(--light);
   border: none;
   outline: none;
   background-color: var(--light-dark);
@@ -113,13 +115,13 @@ input {
 }
 
 .nav-item a {
-  color: var(--primary);
+  color: var(--light);
 }
 
 .hero {
   padding: 3% 4%;
   background-color: var(--dark);
-  color: var(--primary);
+  color: var(--light);
 }
 
 .hero p {
@@ -128,7 +130,7 @@ input {
 
 .app-title {
   font-size: 3rem;
-  background-color: var(--primary);
+  background-color: var(--light);
   color: var(--dark);
   padding: 0 10px;
   display: inline-block;
@@ -149,7 +151,7 @@ input {
   padding: 1.5%;
   border-radius: var(--border-radius);
   background-color: var(--light-dark);
-  color: var(--primary);
+  color: var(--light);
   text-decoration: none;
 }
 
@@ -162,7 +164,7 @@ input {
   padding: 1em;
   margin-bottom: .5em;
   background-color: var(--dark);
-  color: var(--primary);
+  color: var(--light);
   border-radius: var(--border-radius);
   text-decoration: none;
 }
@@ -176,7 +178,7 @@ input {
 }
 
 .card-header {
-  color: var(--primary);
+  color: var(--light);
   background-color: var(--dark);
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
@@ -199,6 +201,7 @@ input {
 .form-input,
 .form-textarea {
   display: block;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .form-label {
