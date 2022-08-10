@@ -9,8 +9,7 @@ router.get('/', withAuth, async (req, res) => {
       include: [User]
     });
     const posts = postData.map((post) => post.get({ plain: true }));
-console.log(posts);
-    res.render('all-posts', {
+    res.render('allPosts', {
       layout: 'dashboard',
       posts,
     });
@@ -20,7 +19,7 @@ console.log(posts);
 });
 
 router.get('/new', withAuth, (req, res) => {
-  res.render('new-post', {
+  res.render('newPost', {
     layout: 'dashboard',
   });
 });
@@ -32,7 +31,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
     if (postData) {
       const post = postData.get({ plain: true });
       console.log(post);
-      res.render('edit-post', {
+      res.render('post', {
         layout: 'dashboard',
         post,
       });
