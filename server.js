@@ -1,3 +1,4 @@
+// TECH BLOG - CHECKED, SAME AS REFERENCE
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -26,7 +27,7 @@ const sess = {
 app.use(session(sess));
 
 app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');``
+app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -39,4 +40,3 @@ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
   sequelize.sync({ force: false });
 });
-

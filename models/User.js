@@ -28,7 +28,6 @@ class User extends Model {
       },
     },   
   },
-  
   {
     hooks: {
       beforeCreate: async (newUserData) => {
