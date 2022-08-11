@@ -46,3 +46,9 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Links
 https://github.com/laperzyna/tech_blog
+
+## ScreenShots
+<img width="1437" alt="Screen Shot 2022-08-10 at 5 17 21 PM" src="https://user-images.githubusercontent.com/90733086/184044512-e4ae47cb-58c0-4c67-ad67-e1155768d2c6.png">
+<img width="1435" alt="Screen Shot 2022-08-10 at 5 16 52 PM" src="https://user-images.githubusercontent.com/90733086/184044520-f75033b9-4557-47e3-a227-e463f88ba0cc.png">
+<img width="1440" alt="Screen Shot 2022-08-10 at 5 16 31 PM" src="https://user-images.githubusercontent.com/90733086/184044525-bc094e2c-37c7-4758-80c8-6da8bc4eaed8.png">
+<img width="1440" alt="Screen Shot 2022-08-10 at 5 16 04 PM" src="https://user-images.githubusercontent.com/90733086/184044529-da9b026f-7bc7-45a1-8d82-4ef5d2c5ebd2.png">
