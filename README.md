@@ -46,6 +46,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Links
 https://github.com/laperzyna/tech_blog
+https://techie-blogie.herokuapp.com
 
 ## ScreenShots
 <img width="1437" alt="Screen Shot 2022-08-10 at 5 17 21 PM" src="https://user-images.githubusercontent.com/90733086/184044512-e4ae47cb-58c0-4c67-ad67-e1155768d2c6.png">
